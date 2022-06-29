@@ -18,6 +18,7 @@ body {
   border-radius: 30px;
   padding: 10px 10px 10px 10px;
   background-color:honeydew;
+  min-width: 600px;
 
 }
 
@@ -154,7 +155,7 @@ ul#navlistpages a {
 .entries {
 
   
-  margin: 20px 200px 20px 200px;
+  margin: 20px 20px 20px 20px;
   padding: 100px 50px 20px 50px;
   border: dotted;
   border-radius: 30px;
@@ -218,7 +219,7 @@ ul#navlistpages a {
 .Astrology {
 
   
-  margin: 20px 200px 20px 200px;
+  margin: 20px 20px 20px 20px;
   padding: 100px 50px 20px 50px;
   border: dotted;
   border-radius: 30px;
@@ -241,8 +242,7 @@ ul#navlistpages a {
 
 .Tarot {
 
- 
-  margin: 20px 200px 20px 200px;
+  margin: 20px 20px 20px 20px;
   padding: 100px 50px 20px 50px;
   border: double;
   border-radius: 30px;
@@ -264,7 +264,7 @@ ul#navlistpages a {
 .Achiever {
 
   
-  margin: 20px 200px 20px 200px;
+  margin: 20px 20px 20px 20px;
   padding: 100px 50px 20px 50px;
   border: inset;
   border-radius: 30px;
@@ -286,7 +286,7 @@ ul#navlistpages a {
 
 .Evidence {
 
-  margin: 20px 200px 20px 200px;
+  margin: 20px 20px 20px 20px;
   padding: 100px 50px 20px 50px;
   border: ridge;
   border-radius: 30px;
@@ -544,7 +544,7 @@ ul#navlistpages a {
 .entries {
 
   
-  margin: 20px 200px 20px 200px;
+  margin: 20px 20px 20px 20px;
   padding: 100px 50px 20px 50px;
   border: dotted;
   border-radius: 30px;
@@ -609,7 +609,7 @@ ul#navlistpages a {
 .Astrology {
 
   
-  margin: 20px 200px 20px 200px;
+  margin: 20px 20px 20px 20px;
   padding: 100px 50px 20px 50px;
   border: dotted;
   border-radius: 30px;
@@ -630,7 +630,7 @@ ul#navlistpages a {
 .Tarot {
 
  
-  margin: 20px 200px 20px 200px;
+  margin: 20px 20px 20px 20px;
   padding: 100px 50px 20px 50px;
   border: double;
   border-radius: 30px;
@@ -651,7 +651,7 @@ ul#navlistpages a {
 .Achiever {
 
   
-  margin: 20px 200px 20px 200px;
+  margin: 20px 20px 20px 20px;
   padding: 100px 50px 20px 50px;
   border: inset;
   border-radius: 30px;
@@ -672,7 +672,7 @@ ul#navlistpages a {
 
 .Evidence {
 
-  margin: 20px 200px 20px 200px;
+  margin: 20px 20px 20px 20px;
   padding: 100px 50px 20px 50px;
   border: ridge;
   border-radius: 30px;
