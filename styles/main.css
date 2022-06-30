@@ -18,7 +18,7 @@ body {
   border-radius: 30px;
   padding: 10px 10px 10px 10px;
   background-color:honeydew;
-  min-width: 600px;
+  min-width: 90%;
 
 }
 
@@ -152,7 +152,7 @@ ul#navlistpages a {
 
 .posts {
 
-  min-width: 600px;
+  min-width: 90%;
   text-align: center;
 
 }
@@ -168,6 +168,7 @@ ul#navlistpages a {
   border-radius: 30px;
   background-color:honeydew;
   text-align: left;
+  min-width: 90%;
   
   
 
@@ -399,6 +400,7 @@ body {
   border-radius: 30px;
   padding: 10px 10px 10px 10px;
   background-color:honeydew;
+  min-width: 90%;
 
 }
 
@@ -482,6 +484,7 @@ ul#navlist a {
   border-radius: 30px;
   padding: 10px 10px 10px 10px;
   background-color:honeydew;
+  min-width: 90%;
 
   
   
@@ -537,6 +540,7 @@ ul#navlistpages a {
 
   min-width: 600px;
   text-align: center;
+  min-width: 90%;
 
 }
 
