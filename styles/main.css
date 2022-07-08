@@ -258,7 +258,18 @@ ul#navlistpages a {
 }
 
 
+.technicalone {
 
+  
+  margin: 20px 20px 20px 20px;
+  padding: 100px 50px 20px 50px;
+  border: dotted;
+  border-radius: 30px;
+  background-color:honeydew;
+  
+  
+
+}
 
 
 
@@ -658,6 +669,18 @@ ul#navlistpages a {
   
 }
 
+.technicalone {
+
+  
+  margin: 20px 20px 20px 20px;
+  padding: 100px 50px 20px 50px;
+  border: dotted;
+  border-radius: 30px;
+  background-color:honeydew;
+  
+  
+
+}
 
 
 .Tarot {
@@ -1039,6 +1062,19 @@ ul#navlistpages a {
   width: 60%;
 
   
+}
+
+.technicalone {
+
+  
+  margin: 20px 200px 20px 200px;
+  padding: 100px 50px 20px 50px;
+  border: dotted;
+  border-radius: 30px;
+  background-color:honeydew;
+  
+  
+
 }
 
 
