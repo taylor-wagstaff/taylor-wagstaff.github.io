@@ -1,7 +1,11 @@
 
 
 body {
-  background-color: #e5f4fd;
+  background-color: white;
   }
 
 
+img {
+
+  max-width: 400px;
+}
