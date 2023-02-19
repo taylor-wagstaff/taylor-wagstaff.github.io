@@ -5,17 +5,12 @@ body {
   }
 
 
-.image {
-  display: block;
-  margin: 0;
+
+a {
+
+  text-decoration: none;
 }
 
-img {
-
-  max-width: 900px;
-  display: block;
-  margin: 0;
-}
 
 @media only screen and (max-width: 480px) {
   img {
