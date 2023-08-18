@@ -1,56 +1,204 @@
-<!DOCTYPE html>
+<html lang="en">
+<head>
 
-<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/styles.css">
+  <script src="/js/index.js" defer></script>
+  <title>HTML Color Tag Picker</title>
 
-
-  <head>
-    <title>Sat, 11 Feb 2023 23:14:13 GMT</title>
-    <link rel="stylesheet" href="styles/index.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="js/lazyload.js"></script>
-  </head>
-
-
-
-<body>
-
-  <div class="line"></div>
-
-  <div class="links">
-
-    <ul>
-      
-
-      <li>  <a href="https://www.emilscheffmann.net/">"A Website for Emil Scheffmann." Vercel, NextJS and Static Rendering. Accessed July 28, 2008. https://www.emilscheffmann.net/</a></li>
-      <li>   <a href="https://www.acrossit.co.nz/">"Acrossit, a Word Game." Vercel, NextJS and React. Accessed June 13, 2002. https://www.acrossit.co.nz/</a></li>
-      <li> <a href="https://taylors-website.vercel.app/">"Dev Academy Project Portfolio." Vercel, NextJS, React and APIs.  Accessed October 30, 2012. https://taylors-website.vercel.app/ </a></li>
-      <li>  <a href="https://img-theta-nine.vercel.app/">"An Image Blog." Vercel and NextJS. Accessed November 12, 2011. https://img-theta-nine.vercel.app/</a></li>
-
-    </ul>
-
-  
-
+  <!-- 
     
+    Hmtml Color Names Picker to-do list
+    -Create buttons for each tag  (complete)
+    -Javascript for hover state on selector box  (complete)
+    -add color to palette, onlclick function  (complete)
+    -header (complete)
+    -Random color function, adds random color to palette (complete)
+    -Clear palette button (complete)
+    -final CSS (complete)
+    -UI, functionailty and web accesibilty text (complete)
+
+      -->
+
+</head>
+<body>
+  <header><h4>HTML Color Names Picker</HTML></h4></header>
+  
+  <aside>
+  <div class="palette-container" aria-label="contains content of palette">
+    <div class="select-box" role="selects your color">
+      <p>Click Color Below</p>
+    </div>
+    
+    <div class="add-box" aria-label="adds color to palette">
+
+      <button onclick="createBox()" class="addButton">Add color</button>
+    </div>
+   
+    <div class="clear-box" aria-label="removes all colors in palette">
+
+      <button onclick="clearColors()" class="clearButton">Clear Colors</button>
+    </div>
+
+
+    <div class="random-box" aria-label="random color in palette">
+
+      <button onclick="randomButton()" class="randomButton">Random Color</button>
+    </div>
+
+  </div> 
+</aside>
 
 
 
-
-
+  <main>
+  <div class="color-grid" aria-label="container to hold all html color tags">
+    <button class="aliceblue">aliceblue</button>
+    <button class="antiquewhite">antiquewhite</button>
+    <button class="aqua">aqua</button>
+    <button class="aquamarine">aquamarine</button>
+    <button class="azure">azure</button>
+    <button class="beige">beige</button>
+    <button class="bisque">bisque</button>
+    <button class="black">black</button>
+    <button class="blanchedalmond">blanchedalmond</button>
+    <button class="blue">blue</button>
+    <button class="blueviolet">blueviolet</button>
+    <button class="brown">brown</button>
+    <button class="burlywood">burlywood</button>
+    <button class="cadetblue">cadetblue</button>
+    <button class="chartreuse">chartreuse</button>
+    <button class="chocolate">chocolate</button>
+    <button class="coral">coral</button>
+    <button class="cornflowerblue">cornflowerblue</button>
+    <button class="cornsilk">cornsilk</button>
+    <button class="crimson">crimson</button>
+    <button class="cyan">cyan</button>
+    <button class="darkblue">darkblue</button>
+    <button class="darkcyan">darkcyan</button>
+    <button class="darkgoldenrod">darkgoldenrod</button>
+    <button class="darkgray">darkgray</button>
+    <button class="darkkhaki">darkkhaki</button>
+    <button class="darkgreen">darkgreen</button>
+    <button class="darkmagenta">darkmagenta</button>
+    <button class="darkolivegreen">darkolivegreen</button>
+    <button class="darkorange">darkorange</button>
+    <button class="darkorchid">darkorchid</button>
+    <button class="darkred">darkred</button>
+    <button class="darksalmon">darksalmon</button>
+    <button class="darkseagreen">darkseagreen</button>
+    <button class="darkslateblue">darkslateblue</button>
+    <button class="darkslategray">darkslategray</button>
+    <button class="darkturquoise">darkturquoise</button>
+    <button class="darkviolet">darkviolet</button>
+    <button class="deeppink">deeppink</button>
+    <button class="deepskyblue">deepskyblue</button>
+    <button class="dimgray">dimgray</button>
+    <button class="dodgerblue">dodgerblue</button>
+    <button class="firebrick">firebrick</button>
+    <button class="floralwhite">floralwhite</button>
+    <button class="forestgreen">forestgreen</button>
+    <button class="fuchsia">fuchsia</button>
+    <button class="gainsboro">gainsboro</button>
+    <button class="ghostwhite">ghostwhite</button>
+    <button class="gold">gold</button>
+    <button class="goldenrod">goldenrod</button>
+    <button class="gray">gray</button>
+    <button class="green">green</button>
+    <button class="greenyellow">greenyellow</button>
+    <button class="honeydew">honeydew</button>
+    <button class="hotpink">hotpink</button>
+    <button class="indianred">indianred</button>
+    <button class="indigo">indigo</button>
+    <button class="ivory">ivory</button>
+    <button class="khaki">khaki</button>
+    <button class="lavender">lavender</button>
+    <button class="lavenderblush">lavenderblush</button>
+    <button class="lawngreen">lawngreen</button>
+    <button class="lemonchiffon">lemonchiffon</button>
+    <button class="lightblue">lightblue</button>
+    <button class="lightcoral">lightcoral</button>
+    <button class="lightcyan">lightcyan</button>
+    <button class="lightgoldenrodyellow">lightgoldenrodyellow</button>
+    <button class="lightgreen">lightgreen</button>
+    <button class="lightgrey">lightgrey</button>
+    <button class="lightpink">lightpink</button>
+    <button class="lightsalmon">lightsalmon</button>
+    <button class="lightseagreen">lightseagreen</button>
+    <button class="lightskyblue">lightskyblue</button>
+    <button class="lightslategray">lightslategray</button>
+    <button class="lightsteelblue">lightsteelblue</button>
+    <button class="lightyellow">lightyellow</button>
+    <button class="lime">lime</button>
+    <button class="limegreen">limegreen</button>
+    <button class="linen">linen</button>
+    <button class="magenta">magenta</button>
+    <button class="maroon">maroon</button>
+    <button class="mediumaquamarine">mediumaquamarine</button>
+    <button class="mediumblue">mediumblue</button>
+    <button class="mediumorchid">mediumorchid</button>
+    <button class="mediumpurple">mediumpurple</button>
+    <button class="mediumseagreen">mediumseagreen</button>
+    <button class="mediumslateblue">mediumslateblue</button>
+    <button class="mediumspringgreen">mediumspringgreen</button>
+    <button class="mediumturquoise">mediumturquoise</button>
+    <button class="mediumvioletred">mediumvioletred</button>
+    <button class="midnightblue">midnightblue</button>
+    <button class="mintcream">mintcream</button>
+    <button class="mistyrose">mistyrose</button>
+    <button class="moccasin">moccasin</button>
+    <button class="navajowhite">navajowhite</button>
+    <button class="navy">navy</button>
+    <button class="olive">olive</button>
+    <button class="olivedrab">olivedrab</button>
+    <button class="orange">orange</button>
+    <button class="orangered">orangered</button>
+    <button class="orchid">orchid</button>
+    <button class="palegoldenrod">palegoldenrod</button>
+    <button class="palegreen">palegreen</button>
+    <button class="paleturquoise">paleturquoise</button>
+    <button class="palevioletred">palevioletred</button>
+    <button class="papayawhip">papayawhip</button>
+    <button class="peachpuff">peachpuff</button>
+    <button class="peru">peru</button>
+    <button class="pink">pink</button>
+    <button class="plum">plum</button>
+    <button class="powderblue">powderblue</button>
+    <button class="purple">purple</button>
+    <button class="rebeccapurple">rebeccapurple</button>
+    <button class="red">red</button>
+    <button class="rosybrown">rosybrown</button>
+    <button class="royalblue">royalblue</button>
+    <button class="saddlebrown">saddlebrown</button>
+    <button class="salmon">salmon</button>
+    <button class="sandybrown">sandybrown</button>
+    <button class="seagreen">seagreen</button>
+    <button class="seashell">seashell</button>
+    <button class="sienna">sienna</button>
+    <button class="silver">silver</button>
+    <button class="skyblue">skyblue</button>
+    <button class="slateblue">slateblue</button>
+    <button class="slategray">slategray</button>
+    <button class="snow">snow</button>
+    <button class="springgreen">springgreen</button>
+    <button class="steelblue">steelblue</button>
+    <button class="tan">tan</button>
+    <button class="teal">teal</button>
+    <button class="thistle">thistle</button>
+    <button class="tomato">tomato</button>
+    <button class="turquoise">turquoise</button>
+    <button class="violet">violet</button>
+    <button class="wheat">wheat</button>
+    <button class="white">white</button>
+    <button class="whitesmoke">whitesmoke</button>
+    <button class="yellow">yellow</button>
+    <button class="yellowgreen">yellowgreen</button>
   </div>
+</main>
 
-
-
-
-
-
-
-
-
+ 
 
 
 </body>
-
-
-
 </html>
